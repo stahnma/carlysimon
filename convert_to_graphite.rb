@@ -2,8 +2,8 @@
 
 require 'date'
 
-IO.read('twitter_count.txt').each_line do |line|
+IO.read('/home/stahnma/twitter_count.txt').each_line do |line|
   dt, val = line.split(',')
   dt = DateTime.parse(dt)
-  puts "#{dt.strftime('%s')},#{val.strip}"
+  puts "twitter.followers.stahnma #{val.strip} #{dt.strftime('%s')}"
 end
