@@ -1,0 +1,1 @@
+*/15 * * * * ruby /home/stahnma/development/twitter_counts/twitter.rb >> /home/stahnma/twitter_count.txt
